@@ -1,1 +1,49 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+/* * {
+  border: red dotted;
+}*/
+body {
+  background-image: url("https://media.istockphoto.com/id/476618574/vector/dark-seamless-vector-background-with-3d-effect.jpg?s=612x612&w=0&k=20&c=GohZJncDSs7doRQVtFkmnsrmHv7HiTolsD9hx8AVg1Y=");
+}
+
+.card {
+  height: 300px;
+  width: 225px;
+  display: flex;
+  border: 1px solid black;
+  margin: 20px auto;
+  padding: 0px;
+  border-radius: 12.5%;
+}
+
+.suit {
+  font-size: 85px;
+  margin: -15px 0;
+  padding: 0;
+}
+
+.num {
+  font-size: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 50px;
+  padding-left: 10;
+  margin-left: 15px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 15px;
+  padding-right: 10;
+  margin-right: 15px;
+  font-size: 50px;
+}
